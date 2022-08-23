@@ -1,5 +1,4 @@
 import java.util.Arrays
-
 class Matrix(arrs: Array<IntArray>, noOfRow: Int, noOfCol: Int) {
     var r:Int = noOfRow
     var c:Int = noOfCol
@@ -8,7 +7,7 @@ class Matrix(arrs: Array<IntArray>, noOfRow: Int, noOfCol: Int) {
     fun displayMat(final: Array<IntArray>){
         for (row in final) {
             for (column in row) {
-                print("$column    ")
+                print("$column")
             }
             println()
         }
